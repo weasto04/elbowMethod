@@ -1,0 +1,13 @@
+:root{--gap:12px;--bg:#f7f8fb}
+*{box-sizing:border-box;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial}
+html,body,#plots{height:100%}
+body{margin:0;background:var(--bg);display:flex;flex-direction:column;min-height:100vh}
+header{padding:14px 18px;background:#fff;border-bottom:1px solid #e6e9ef}
+header h1{margin:0;font-size:18px}
+main{flex:1;padding:14px}
+#controls{display:flex;gap:8px;align-items:center;margin-bottom:12px}
+#plots{display:flex;gap:var(--gap);height:calc(100% - 84px)}
+.plot{flex:1;background:#fff;border:1px solid #e6e9ef;padding:6px;min-height:300px}
+footer{padding:8px 18px;background:#fff;border-top:1px solid #e6e9ef}
+button,input,select{padding:6px;border:1px solid #c8cbd6;border-radius:6px;background:#fff}
+small{color:#555}
